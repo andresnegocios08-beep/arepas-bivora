@@ -1,6 +1,6 @@
 {
   "name": "arepas-bivora",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,7 +15,6 @@
     "@radix-ui/react-select": "^2.0.0",
     "clsx": "^2.1.1",
     "next": "14.2.15",
-    "prisma": "^5.22.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "tailwind-merge": "^2.4.0",
@@ -30,7 +29,7 @@
     "autoprefixer": "^10.4.16",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
-    "postcss": "^8.4.31",
+    "postcss": "8.4.31",
     "tailwindcss": "^3.3.0"
   },
   "prisma": {

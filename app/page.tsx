@@ -11,6 +11,7 @@ export default async function Home() {
     <>
       <Navbar />
       <div className="min-h-screen bg-gray-50">
+        {/* Header */}
         <div className="bg-orange-500 text-white py-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold">🥙 Arepas Mixtas La Bívora</h1>
           <p className="text-xl mt-2">Las mejores arepas rellenas de Amalfi</p>
@@ -18,6 +19,7 @@ export default async function Home() {
           <p className="text-sm">📱 312 6621391</p>
         </div>
 
+        {/* Menú */}
         <div className="container mx-auto px-4 py-8">
           <h2 className="text-2xl font-bold text-center mb-8">Nuestro Menú</h2>
           
@@ -48,6 +50,7 @@ export default async function Home() {
           </div>
         </div>
 
+        {/* Footer */}
         <footer className="bg-orange-600 text-white text-center py-4 text-sm">
           <p>📍 Entrada a La, Amalfi, Antioquia</p>
           <p>📱 312 6621391</p>
